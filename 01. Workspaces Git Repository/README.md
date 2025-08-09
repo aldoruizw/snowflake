@@ -24,9 +24,9 @@ Welcome to the Snowflake Workspace repository! 🚀
     [01. Setting up Snowflake to use Git.sql](https://github.com/aldoruizw/snowflake/blob/main/01.%20Workspaces%20Git%20Repository/01.%20Setting%20up%20Snowflake%20to%20use%20Git.sql)
 
 4. Execute the script and Create a **Snowflake Workspaces** linked to your repository.
-    <img width="639" height="257" alt="image" src="https://github.com/user-attachments/assets/cba157fa-ff83-49aa-a1e1-27b33bf2a37a" />
-    <img width="714" height="764" alt="image" src="https://github.com/user-attachments/assets/52808d18-4e2a-47e1-acd9-a19eaabb0b85" />
-    <img width="771" height="320" alt="image" src="https://github.com/user-attachments/assets/d3b091fa-abdc-4825-9fae-71689fdfa619" />
+    <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/cba157fa-ff83-49aa-a1e1-27b33bf2a37a" />
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/52808d18-4e2a-47e1-acd9-a19eaabb0b85" />
+    <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/d3b091fa-abdc-4825-9fae-71689fdfa619" />
 
 6. Now you can work with your scripts inside the **Snowflake Web UI Worksheets**. 🧑‍💻,
 7. You can files, commit, and push changes via the Snowflake interface. 💾
