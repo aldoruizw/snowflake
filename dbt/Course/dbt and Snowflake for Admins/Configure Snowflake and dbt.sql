@@ -1,3 +1,5 @@
+--02. Setting up Snowflake for dbt -> Configure Snowflake for dbt
+
 use role SYSADMIN;
 create database if not exists ANALYTICS;
 create warehouse if not exists TRANSFORMING with warehouse_size = 'XSMALL';
