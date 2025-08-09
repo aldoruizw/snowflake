@@ -38,7 +38,6 @@ Welcome to the Snowflake Workspace repository! 🚀
     /
     ├── *.sql      ← Your SQL scripts here
     ├── README.md  ← This file
-    ├── .gitignore ← (Optional) files to exclude from git
 
 ---
 
