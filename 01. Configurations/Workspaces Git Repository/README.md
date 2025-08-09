@@ -21,7 +21,7 @@ Welcome to the Snowflake Workspace repository! 🚀
 
 3. Add your GitHub username, personal token (step 2) and the URL of your repo.
 
-    [01. Setting up Snowflake to use Git.sql](https://github.com/aldoruizw/snowflake/blob/main/01.%20Workspaces%20Git%20Repository/01.%20Setting%20up%20Snowflake%20to%20use%20Git.sql)
+    [01. Setting up Snowflake to use Git.sql](https://github.com/aldoruizw/snowflake/blob/main/01.%20Configurations/Workspaces%20Git%20Repository/Setting%20up%20Snowflake%20to%20use%20Git.sql)
 
 4. Execute the script and Create a **Snowflake Workspaces** linked to your repository.
     <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/cba157fa-ff83-49aa-a1e1-27b33bf2a37a" />
