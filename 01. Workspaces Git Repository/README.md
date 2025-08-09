@@ -33,14 +33,6 @@ Welcome to the Snowflake Workspace repository! 🚀
 
 ---
 
-## 📁 Repo Structure
-
-    /
-    ├── *.sql      ← Your SQL scripts here
-    ├── README.md  ← This file
-
----
-
 ## 📚 Official Documentation
 
 For detailed guidance on setting up Git integrations with Snowflake, refer to the official documentation:
