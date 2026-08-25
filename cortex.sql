@@ -1,9 +1,8 @@
+USE ROLE ACCOUNTADMIN;
+
 ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
 
-SELECT SNOWFLAKE.CORTEX.EMBED_TEXT_1024(
-  'snowflake-arctic-embed-l-v2.0',
-  'This is a test sentence to verify the embedding model works.'
-) AS embedding;
+SELECT SNOWFLAKE.CORTEX.EMBED_TEXT_1024('snowflake-arctic-embed-l-v2.0', 'This is a test sentence to verify the embedding model works.') AS embedding;
 
 SHOW PARAMETERS IN ACCOUNT;
 SELECT *
@@ -29,4 +28,6 @@ ALTER API INTEGRATION API_INTEGRATION_GIT_REPOSITORY
 
 drop secret "USER$ARUIZ".PUBLIC.GIT_SECRET2;
 
-  
+  SELECT 'USER$'||CURRENT_USER();
+
+  SHOW SCHEMAS IN DATABASE "USER$ARUIZ";

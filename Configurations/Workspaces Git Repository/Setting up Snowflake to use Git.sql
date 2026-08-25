@@ -1,7 +1,8 @@
 CREATE OR REPLACE SECRET SECRET_GIT_GIT_REPOSITORY_SNOWFLAKE
   TYPE = password
   USERNAME = 'GitHub username'
-  PASSWORD = 'Personal access tokens (classic)';
+  PASSWORD = 'Personal access tokens (classic)'
+;
 
 CREATE OR REPLACE API INTEGRATION API_INTEGRATION_GIT_REPOSITORY_SNOWFLAKE
   API_PROVIDER = git_https_api
