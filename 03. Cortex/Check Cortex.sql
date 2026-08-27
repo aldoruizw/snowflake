@@ -1,3 +1,17 @@
+/*====================================================================
+  FILE         : Git workspace.sql
+  DESCRIPTION  : Add Git workspace
+====================================================================*/
+
+/*--------------------------------------------------------------------
+  SECTION : Verify if cortex works in account
+--------------------------------------------------------------------*/
+USE ROLE PUBLIC;
+SELECT SNOWFLAKE.CORTEX.EMBED_TEXT_1024(
+  'snowflake-arctic-embed-l-v2.0',
+  'This is a test sentence to verify the embedding model works.'
+) AS embedding;
+
 USE ROLE ACCOUNTADMIN;
 
 ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
