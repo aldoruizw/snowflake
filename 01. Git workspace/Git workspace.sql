@@ -19,4 +19,8 @@ CREATE OR REPLACE API INTEGRATION API_INTEGRATION_GIT_REPOSITORY
 2. Git workspace
 3. Repository URL -> https://github.com/aldoruizw/snowflake.git
    OAuth2
+   Configure
+   You need to install snowflakedb
+   https://github.com/settings/installations/156888844
+   Give access to your repository
 --------------------------------------------------------------------*/
