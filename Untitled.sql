@@ -34,15 +34,15 @@ CREATE OR REPLACE CATALOG INTEGRATION CATALOG_DATABRICKS_ICEBERG_TEST
   TABLE_FORMAT = ICEBERG
   CATALOG_NAMESPACE = 'test_iceberg' --
   REST_CONFIG = (
-    CATALOG_URI = 'https://dbc-85db9a55-7c00.cloud.databricks.com/api/2.1/unity-catalog/iceberg-rest/'
+    CATALOG_URI = 'https://ACCOUNT.cloud.databricks.com/api/2.1/unity-catalog/iceberg-rest/'
     CATALOG_NAME = 'test_iceberg' --
     ACCESS_DELEGATION_MODE = VENDED_CREDENTIALS
   )
   REST_AUTHENTICATION = (
     TYPE = OAUTH
-    OAUTH_TOKEN_URI = 'https://dbc-85db9a55-7c00.cloud.databricks.com/oidc/v1/token'
-    OAUTH_CLIENT_ID = '307d4f26-ed66-4d85-99a7-4f0c72e9a628'
-    OAUTH_CLIENT_SECRET = 'dosed2f5d2e44ce65ce9c14e2981536caa84'
+    OAUTH_TOKEN_URI = 'https://ACCOUNT.cloud.databricks.com/oidc/v1/token'
+    OAUTH_CLIENT_ID = 'CLINET_ID'
+    OAUTH_CLIENT_SECRET = 'CLIENT_SECRET'
     OAUTH_ALLOWED_SCOPES = ('all-apis', 'sql')
   )
   ENABLED = TRUE
